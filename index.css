@@ -1,7 +1,7 @@
 form{
     border: 1px solid lightgray;
     padding: 10px;
-    margin-top: 250px;
+    margin-top: 200px;
     margin-left: 500px;
     width: 360px;
 }
@@ -71,4 +71,7 @@ p.footerlinks{
 p.footernote{
     padding-left: 570px; 
     font-size: 12px;
+}
+footer{
+    margin-top: 20px;
 }
