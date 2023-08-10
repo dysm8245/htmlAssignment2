@@ -2,7 +2,8 @@ form{
     border: 1px solid lightgray;
     padding: 10px;
     margin-top: 200px;
-    margin-left: 500px;
+    /* margin-left: 540px; */
+    margin: auto;
     width: 360px;
 }
 label{
@@ -59,19 +60,33 @@ button.sign-in{
 button.create-account{
     width: 340px;
     padding: 5px;
-    margin-top: 30px;
-    margin-left: 520px;
+    /* margin-left: 560px; */
+    margin: 0;
     margin-bottom: 50px;
     text-align: center;
 }
 p.footerlinks{
-    padding-left: 540px; 
+    text-align: center;
+    /* padding-left: 590px;  */
     font-size: 12px;
 }
 p.footernote{
-    padding-left: 570px; 
+    text-align: center;
+    /* padding-left: 620px;  */
     font-size: 12px;
 }
 footer{
     margin-top: 20px;
+}
+fieldset{
+    text-align: center;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    width: 200px;
+    margin:auto;
+    /* display: block; */
+}
+div{
+    text-align: center;
 }
