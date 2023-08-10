@@ -1,0 +1,74 @@
+form{
+    border: 1px solid lightgray;
+    padding: 10px;
+    margin-top: 250px;
+    margin-left: 500px;
+    width: 360px;
+}
+label{
+    margin-bottom: 50px;
+    margin: 20px;
+}
+label.sign-in{
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+li {
+    list-style-type: none;
+    position: relative;
+    padding-left: 0px;
+}
+li:before {
+    content: "\25BA \0020";
+    color: rgb(0, 149, 255);
+    font-size: 6px;
+    position: absolute;
+    top: 5px;
+    left: -5px;
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 149, 255);
+    margin-left: 40px;
+}
+a.help{
+    text-decoration: none;
+    color: rgb(0, 149, 255);
+    margin-left: 0px;
+}
+a.footerlinks{
+    text-decoration: none;
+    color: rgb(0, 149, 255);
+    margin-left: 20px;
+}
+input{
+    width: 300px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+button.sign-in{
+    width: 315px;
+    padding: 5px;
+    margin-left: 20px;
+    /* margin-bottom: 20px; */
+    background-color: orange;
+    text-align: center;
+}
+button.create-account{
+    width: 340px;
+    padding: 5px;
+    margin-top: 30px;
+    margin-left: 520px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+p.footerlinks{
+    padding-left: 540px; 
+    font-size: 12px;
+}
+p.footernote{
+    padding-left: 570px; 
+    font-size: 12px;
+}
